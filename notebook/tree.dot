@@ -1,0 +1,149 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Contract_Month-to-month" fillcolor="#78cbe" shape="box" style="filled" ]
+    0 -> 1 [label="yes, missing" color="#0000FF"]
+    0 -> 2 [label="no" color="#FF0000"]
+
+    1 [ label="MonthlyCharges<93.5749969" fillcolor="#78cbe" shape="box" style="filled" ]
+    1 -> 3 [label="yes, missing" color="#0000FF"]
+    1 -> 4 [label="no" color="#FF0000"]
+
+    3 [ label="MonthlyCharges<42.3249969" fillcolor="#78cbe" shape="box" style="filled" ]
+    3 -> 7 [label="yes, missing" color="#0000FF"]
+    3 -> 8 [label="no" color="#FF0000"]
+
+    7 [ label="leaf=-0.018377535" fillcolor="#e48038" shape="box" style="filled" ]
+
+    8 [ label="MonthlyCharges<43.3249969" fillcolor="#78cbe" shape="box" style="filled" ]
+    8 -> 15 [label="yes, missing" color="#0000FF"]
+    8 -> 16 [label="no" color="#FF0000"]
+
+    15 [ label="leaf=0.00499999989" fillcolor="#e48038" shape="box" style="filled" ]
+
+    16 [ label="InternetService_DSL" fillcolor="#78cbe" shape="box" style="filled" ]
+    16 -> 29 [label="yes, missing" color="#0000FF"]
+    16 -> 30 [label="no" color="#FF0000"]
+
+    29 [ label="leaf=-0.00999999978" fillcolor="#e48038" shape="box" style="filled" ]
+
+    30 [ label="leaf=-0.0139083546" fillcolor="#e48038" shape="box" style="filled" ]
+
+    4 [ label="MonthlyCharges<110.399994" fillcolor="#78cbe" shape="box" style="filled" ]
+    4 -> 9 [label="yes, missing" color="#0000FF"]
+    4 -> 10 [label="no" color="#FF0000"]
+
+    9 [ label="MonthlyCharges<93.9499969" fillcolor="#78cbe" shape="box" style="filled" ]
+    9 -> 17 [label="yes, missing" color="#0000FF"]
+    9 -> 18 [label="no" color="#FF0000"]
+
+    17 [ label="leaf=0.009333333" fillcolor="#e48038" shape="box" style="filled" ]
+
+    18 [ label="MonthlyCharges<103.224998" fillcolor="#78cbe" shape="box" style="filled" ]
+    18 -> 33 [label="yes, missing" color="#0000FF"]
+    18 -> 34 [label="no" color="#FF0000"]
+
+    33 [ label="leaf=-0.0072897193" fillcolor="#e48038" shape="box" style="filled" ]
+
+    34 [ label="leaf=-0.00302521023" fillcolor="#e48038" shape="box" style="filled" ]
+
+    10 [ label="MonthlyCharges<117.699997" fillcolor="#78cbe" shape="box" style="filled" ]
+    10 -> 19 [label="yes, missing" color="#0000FF"]
+    10 -> 20 [label="no" color="#FF0000"]
+
+    19 [ label="leaf=-0.0155999986" fillcolor="#e48038" shape="box" style="filled" ]
+
+    20 [ label="leaf=0.00461538462" fillcolor="#e48038" shape="box" style="filled" ]
+
+    2 [ label="MonthlyCharges<69.1750031" fillcolor="#78cbe" shape="box" style="filled" ]
+    2 -> 5 [label="yes, missing" color="#0000FF"]
+    2 -> 6 [label="no" color="#FF0000"]
+
+    5 [ label="MonthlyCharges<20.8250008" fillcolor="#78cbe" shape="box" style="filled" ]
+    5 -> 11 [label="yes, missing" color="#0000FF"]
+    5 -> 12 [label="no" color="#FF0000"]
+
+    11 [ label="MonthlyCharges<19.3250008" fillcolor="#78cbe" shape="box" style="filled" ]
+    11 -> 21 [label="yes, missing" color="#0000FF"]
+    11 -> 22 [label="no" color="#FF0000"]
+
+    21 [ label="MonthlyCharges<18.875" fillcolor="#78cbe" shape="box" style="filled" ]
+    21 -> 37 [label="yes, missing" color="#0000FF"]
+    21 -> 38 [label="no" color="#FF0000"]
+
+    37 [ label="leaf=-0" fillcolor="#e48038" shape="box" style="filled" ]
+
+    38 [ label="leaf=-0.017419355" fillcolor="#e48038" shape="box" style="filled" ]
+
+    22 [ label="MonthlyCharges<20.625" fillcolor="#78cbe" shape="box" style="filled" ]
+    22 -> 39 [label="yes, missing" color="#0000FF"]
+    22 -> 40 [label="no" color="#FF0000"]
+
+    39 [ label="leaf=-0.00223602494" fillcolor="#e48038" shape="box" style="filled" ]
+
+    40 [ label="leaf=-0.0160000008" fillcolor="#e48038" shape="box" style="filled" ]
+
+    12 [ label="MonthlyCharges<49.4250031" fillcolor="#78cbe" shape="box" style="filled" ]
+    12 -> 23 [label="yes, missing" color="#0000FF"]
+    12 -> 24 [label="no" color="#FF0000"]
+
+    23 [ label="MonthlyCharges<45.0250015" fillcolor="#78cbe" shape="box" style="filled" ]
+    23 -> 41 [label="yes, missing" color="#0000FF"]
+    23 -> 42 [label="no" color="#FF0000"]
+
+    41 [ label="leaf=0.00503171235" fillcolor="#e48038" shape="box" style="filled" ]
+
+    42 [ label="leaf=0.0105641028" fillcolor="#e48038" shape="box" style="filled" ]
+
+    24 [ label="MonthlyCharges<55.9500008" fillcolor="#78cbe" shape="box" style="filled" ]
+    24 -> 43 [label="yes, missing" color="#0000FF"]
+    24 -> 44 [label="no" color="#FF0000"]
+
+    43 [ label="leaf=0.00225080387" fillcolor="#e48038" shape="box" style="filled" ]
+
+    44 [ label="leaf=-0.00320754689" fillcolor="#e48038" shape="box" style="filled" ]
+
+    6 [ label="InternetService_DSL" fillcolor="#78cbe" shape="box" style="filled" ]
+    6 -> 13 [label="yes, missing" color="#0000FF"]
+    6 -> 14 [label="no" color="#FF0000"]
+
+    13 [ label="MonthlyCharges<106.625" fillcolor="#78cbe" shape="box" style="filled" ]
+    13 -> 25 [label="yes, missing" color="#0000FF"]
+    13 -> 26 [label="no" color="#FF0000"]
+
+    25 [ label="MonthlyCharges<69.7750015" fillcolor="#78cbe" shape="box" style="filled" ]
+    25 -> 45 [label="yes, missing" color="#0000FF"]
+    25 -> 46 [label="no" color="#FF0000"]
+
+    45 [ label="leaf=0.0151351355" fillcolor="#e48038" shape="box" style="filled" ]
+
+    46 [ label="leaf=0.0116910562" fillcolor="#e48038" shape="box" style="filled" ]
+
+    26 [ label="MonthlyCharges<111.175003" fillcolor="#78cbe" shape="box" style="filled" ]
+    26 -> 47 [label="yes, missing" color="#0000FF"]
+    26 -> 48 [label="no" color="#FF0000"]
+
+    47 [ label="leaf=0.00166666671" fillcolor="#e48038" shape="box" style="filled" ]
+
+    48 [ label="leaf=0.0111111114" fillcolor="#e48038" shape="box" style="filled" ]
+
+    14 [ label="MonthlyCharges<74.6000061" fillcolor="#78cbe" shape="box" style="filled" ]
+    14 -> 27 [label="yes, missing" color="#0000FF"]
+    14 -> 28 [label="no" color="#FF0000"]
+
+    27 [ label="MonthlyCharges<71.0749969" fillcolor="#78cbe" shape="box" style="filled" ]
+    27 -> 49 [label="yes, missing" color="#0000FF"]
+    27 -> 50 [label="no" color="#FF0000"]
+
+    49 [ label="leaf=-0.00608695624" fillcolor="#e48038" shape="box" style="filled" ]
+
+    50 [ label="leaf=-0.0142857144" fillcolor="#e48038" shape="box" style="filled" ]
+
+    28 [ label="MonthlyCharges<74.6999969" fillcolor="#78cbe" shape="box" style="filled" ]
+    28 -> 51 [label="yes, missing" color="#0000FF"]
+    28 -> 52 [label="no" color="#FF0000"]
+
+    51 [ label="leaf=0.0090909088" fillcolor="#e48038" shape="box" style="filled" ]
+
+    52 [ label="leaf=-0.00742857158" fillcolor="#e48038" shape="box" style="filled" ]
+}
